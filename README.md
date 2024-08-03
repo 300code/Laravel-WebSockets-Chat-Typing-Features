@@ -4,7 +4,7 @@ Realtime chat application built with Laravel WebSockets.
 
 ## Usage
 
-1. Clone this repository git clone git@github.com:300code/Laravel-WebSockets-Chat-Typing-Features.git
+1. Clone this repository git clone [git@github.com:300code/Laravel-WebSockets-Chat-Typing-Features.git](https://github.com/300code/Laravel-WebSockets-Chat-Typing-Features.git)
 2. composer install
 3. php artisan key:generate
 4. cp .env.example .env and configure your database in .env file.
