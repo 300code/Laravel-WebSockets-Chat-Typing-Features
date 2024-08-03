@@ -1,0 +1,17 @@
+## Laravel WebSockets Chat and Typing Notify Sockets Application Example
+
+Realtime chat application built with Laravel WebSockets. 
+
+## Usage
+
+1. Clone this repository git clone git@github.com:300code/Laravel-WebSockets-Chat-Typing-Features.git
+2. composer install
+3. php artisan key:generate
+4. cp .env.example .env and configure your database in .env file.
+5. Run migration to create tables in database. php artisan migrate
+6. Final step run websockets server. php artisan websockets:serve,
+
+# Links
+- [Video Tutorial](https://github.com/300code).
+- [Laravel Native Post](https://laravel.com/docs/11.x/broadcasting)
+
