@@ -14,11 +14,13 @@ Realtime chat application built with Laravel WebSockets.
 
 
 ## Command Line Options
-
+  you can add this channel on route for sending packet to socket as typing user ....
+  
+```php
 Broadcast::channel('events.{userId}', function ($user, $userId) {
     return (int) $user->id === (int) $userId;
 });
-
+```
 
 # Links
 - [Video Tutorial](https://github.com/300code).
