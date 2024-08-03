@@ -12,3 +12,7 @@ Broadcast::channel("SendMessageEvent", function () {
         "time" => $this->time
     ];
 });
+
+Broadcast::channel('events.{userId}', function ($user, $userId) {
+    return (int) $user->id === (int) $userId;
+});

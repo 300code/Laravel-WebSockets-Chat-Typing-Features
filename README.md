@@ -11,6 +11,15 @@ Realtime chat application built with Laravel WebSockets.
 5. Run migration to create tables in database. php artisan migrate
 6. Final step run websockets server. php artisan websockets:serve,
 
+
+
+## Command Line Options
+
+Broadcast::channel('events.{userId}', function ($user, $userId) {
+    return (int) $user->id === (int) $userId;
+});
+
+
 # Links
 - [Video Tutorial](https://github.com/300code).
 - [Laravel Native Post](https://laravel.com/docs/11.x/broadcasting)
